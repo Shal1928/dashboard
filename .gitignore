@@ -1,0 +1,6 @@
+.idea/
+kanban.iml
+/dashboard/src/node_modules/
+/table/src/node_modules/
+/dashboard/src/.clasp.json
+/table/src/.clasp.json
