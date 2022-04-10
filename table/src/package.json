@@ -1,0 +1,11 @@
+{
+  "name": "google-apps-script-type-hinting",
+  "description": "Type-hinting for Google Apps Script development in IntelliJ IDEA",
+  "author": {
+    "name": "Your name",
+    "email": "your@mail.com"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.45"
+  }
+}

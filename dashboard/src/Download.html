@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      let data = <?!= JSON.stringify(dataFromServerTemplate) ?>;
+
+      function downloadFile() {
+        document.getElementById("body").innerText = "Downloading...";
+        window.open(data.url, "_blank");
+        google.script.host.close();
+      }
+    </script>
+  </head>
+  <body id="body" onload="downloadFile()">
+    
+  </body>
+</html>
